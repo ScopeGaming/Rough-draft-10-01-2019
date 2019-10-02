@@ -1,5 +1,20 @@
 import numpy as np
 
+def reqArgFunc( empname):   
+   print ("Emp Name: ", empname)
+   return;   
+print("Not passing required arg value")
+reqArgFunc()
+print("Now passing required arg value")
+reqArgFunc("Hello")
+
+
+
+def Test1():
+    x = 0
+    print (x + 1)
+    return;
+
 def Question1():
 
     Option1A = ["Tell you Sister and ruin the weding?"]
@@ -10,6 +25,8 @@ def Question1():
     print ( " Do you chose Option 1 or Option 2 " )
     print ( str(Option1A) )
     print ( str(Option1B) )
+
+    return;
 
 def Question2 ():
 
@@ -24,11 +41,11 @@ def Question2 ():
 
 def Question3 ():
 
-    Option3A = ["Tell you Sister and ruin the weding?"]
-    Option3B = ["Let the wedding continue?"]
+    Option3A = ["Yes, Your loyalty to your best friend eclipses any company policy."]
+    Option3B = ["No, it sucks that your best friend has a cheating husband, but you can not risk losing your job."]
     
 
-    print ( " You are at your sisters wedding an hour before the ceremony is to start. Earlier that day, you came across definitive proof that your sisters husband-to-be is having an affair with the best man, and you catch them sneaking out of a room together looking disheveled. If you tell your sister about the affair, her day will be ruined, but you don't want your sister to marry a cheater. What do you do? " )
+    print ( " You have a job as network administrator for a company that also employs your best friend's husband. One day, your best friend's husband sends you a message asking you to release an email from quarantine. This requires you to open the email, at which point you discover that it's correspondence between this guy and his secret lover. After releasing the email, you find yourself in a pickle. Your instinct is to tell your best friend about his husband's infidelities, but divulging the contents of company emails is against company policy and you could lose your job. Once it becomes plain that your best friend found out about his cheating husband through a company email, all trails will inevitably lead to you as the leak. Do you tell him about the indiscretion? " )
     print ( " Do you chose Option 1 or Option 2 " )
     print ( str(Option3A) )
     print ( str(Option3B) )
