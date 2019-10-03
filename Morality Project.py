@@ -8,8 +8,7 @@ def Question1():
 
    OptionA = ("Tell you Sister and ruin the weding?")
    OptionB = ("Let the wedding continue?")
-   Question = ("You are at your sisters wedding an hour before the ceremony is to start. Earlier that day, you came across definitive proof that your sisters husband-to-be is having an affair with the best   man, and you catch them sneaking out of a room together looking disheveled. If you tell your sister about the affair, her day will be ruined, but you don't want your sister to marry a cheater.What do you do?")
-
+   
    print (" Question 1 ")
    print ("  ")
 
